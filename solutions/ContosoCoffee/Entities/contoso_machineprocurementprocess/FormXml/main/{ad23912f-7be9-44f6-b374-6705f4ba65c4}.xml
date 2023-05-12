@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{ad23912f-7be9-44f6-b374-6705f4ba65c4}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{02048624-79ce-4e69-87ae-2bd530c596b2}" name="StageStep3" locklevel="0" expanded="true" visible="false" labelid="{abaed7b9-86ae-408f-a8cc-2d19b43099fb}">
+          <labels>
+            <label description="Machine Requested" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{c5aa6ee8-af82-9de3-7550-ea966bf134b5}" name="StageStep3_section1" labelid="{f5f9abab-125f-4eb4-9f80-53fbebae4a56}">
+                  <labels>
+                    <label description="Machine Requested" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e60f7b21-941d-4767-a01d-c943bd6b7416}" showlabel="true" visible="true" labelid="{076edb18-9ef2-4243-b41c-0043ec31234c}">
+                        <labels>
+                          <label description="Request Date" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_contoso_machineorder_contoso_machineprocurementprocess:contoso_requestdate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="contoso_requestdate" relationship="bpf_contoso_machineorder_contoso_machineprocurementprocess" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5b60f06c-dea0-4e82-ab3d-4974e0d5dda9}" showlabel="true" visible="true" labelid="{7b763e93-667a-4282-939a-7de431e5ade3}">
+                        <labels>
+                          <label description="Approval Status" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_contoso_machineorder_contoso_machineprocurementprocess:contoso_approvalstatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="contoso_approvalstatus" relationship="bpf_contoso_machineorder_contoso_machineprocurementprocess" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7c4db7ba-e5c5-4417-ac8c-09a3fcf237ca}" showlabel="true" visible="true" labelid="{895551ee-2bc3-426c-8bda-4f1af5ff160b}">
+                        <labels>
+                          <label description="Price" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_contoso_machineorder_contoso_machineprocurementprocess:contoso_price" classid="{533b9e00-756b-4312-95a0-dc888637ac78}" datafieldname="contoso_price" relationship="bpf_contoso_machineorder_contoso_machineprocurementprocess" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{039b2351-a111-4c9b-bb00-c6a274fd662c}" name="StageStep11" locklevel="0" expanded="true" visible="false" labelid="{eb0c91e5-4128-4fe9-a4ad-f1f327fab1da}">
+          <labels>
+            <label description="Capital Approval" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{eca3494c-e2d9-b7b5-298a-ca2354873fff}" name="StageStep11_section1" labelid="{0ec173ed-313c-4ba0-9485-748e942868aa}">
+                  <labels>
+                    <label description="Capital Approval" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{934e93a5-4551-46f6-9d87-45e948088e9a}" showlabel="true" visible="true" labelid="{07841fda-f8fa-4d65-b4ec-745bed4081e8}">
+                        <labels>
+                          <label description="Capital Approved" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_contoso_machineorder_contoso_machineprocurementprocess:contoso_capitalapproved" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="contoso_capitalapproved" relationship="bpf_contoso_machineorder_contoso_machineprocurementprocess" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{be90714a-4494-46e2-974f-8160497d9945}" name="StageStep15" locklevel="0" expanded="true" visible="false" labelid="{e2e8ee9d-3cdb-4154-8c09-64bb2799f780}">
+          <labels>
+            <label description="Place Order" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{514bd9e3-a535-e204-e7a8-a44b6d91c016}" name="StageStep15_section1" labelid="{c3540c46-6d34-4f2f-99e0-2496d5aca0bb}">
+                  <labels>
+                    <label description="Place Order" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{33caf64d-7c11-4a78-bc08-86e00c7ace35}" showlabel="true" visible="true" labelid="{dc855da1-a5ca-4126-8aa3-994fa04b4750}">
+                        <labels>
+                          <label description="Estimated Ship Date" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_contoso_machineorder_contoso_machineprocurementprocess:contoso_estimatedshipdate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="contoso_estimatedshipdate" relationship="bpf_contoso_machineorder_contoso_machineprocurementprocess" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c580e2b9-37e8-490f-a56c-29c27f336a3e}" showlabel="true" visible="true" labelid="{f259a64e-90eb-4f50-9555-45c36049b391}">
+                        <labels>
+                          <label description="Supplier Order ID" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_contoso_machineorder_contoso_machineprocurementprocess:contoso_supplierorderid" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="contoso_supplierorderid" relationship="bpf_contoso_machineorder_contoso_machineprocurementprocess" isrequired="true" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{73ec9da8-359a-4179-a5ab-4129b38352d1}" name="StageStep21" locklevel="0" expanded="true" visible="false" labelid="{31a939fb-41af-42eb-9b06-d9195154f68c}">
+          <labels>
+            <label description="Receive Machine" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{90a12e83-7779-7226-f5c0-a2bef95c17d8}" name="StageStep21_section1" labelid="{c2c690c7-ba74-414a-98bd-817b477df39f}">
+                  <labels>
+                    <label description="Receive Machine" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f2dcfedc-6f9d-40b1-90a7-b72ae7236364}" showlabel="true" visible="true" labelid="{4e555b53-b0c6-418c-8585-d62efee8f330}">
+                        <labels>
+                          <label description="Machine Received" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_contoso_machineorder_contoso_machineprocurementprocess:contoso_machinereceived" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="contoso_machinereceived" relationship="bpf_contoso_machineorder_contoso_machineprocurementprocess" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{22eb6021-a9d3-4a95-8794-fb47a4d78742}" showlabel="true" visible="true" labelid="{d2ec89f1-9ac6-48b9-98e2-e2264918c195}">
+                        <labels>
+                          <label description="Machine Configured" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_contoso_machineorder_contoso_machineprocurementprocess:contoso_machineconfigured" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="contoso_machineconfigured" relationship="bpf_contoso_machineorder_contoso_machineprocurementprocess" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{52dc25b9-1234-4b2d-9920-bcf2ac320151}" name="StageStep27" locklevel="0" expanded="true" visible="false" labelid="{ca69395a-1bc5-469c-9160-4d13b35776c4}">
+          <labels>
+            <label description="Distribute Machine" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{18407ae1-cf4c-02d8-15a3-c8b67e447ba5}" name="StageStep27_section1" labelid="{39f0bd3e-04cb-45b6-b9c4-8e49199bc873}">
+                  <labels>
+                    <label description="Distribute Machine" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{37a7bd7d-44f8-4871-a458-c346313c8d21}" showlabel="true" visible="true" labelid="{7533dddd-76c9-4611-bf4f-ca51c9beaaf3}">
+                        <labels>
+                          <label description="Machine Delivered" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_contoso_machineorder_contoso_machineprocurementprocess:contoso_machinedelivered" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="contoso_machinedelivered" relationship="bpf_contoso_machineorder_contoso_machineprocurementprocess" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{adc7eadb-63c7-4e10-886e-cf8075d4fa5f}" showlabel="true" visible="true" labelid="{dbecb64a-a475-43a2-8430-7a4e9611c96b}">
+                        <labels>
+                          <label description="Send Survey" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_contoso_machineorder_contoso_machineprocurementprocess:contoso_sendsurvey" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="contoso_sendsurvey" relationship="bpf_contoso_machineorder_contoso_machineprocurementprocess" isrequired="false" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

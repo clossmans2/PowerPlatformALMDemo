@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{0a387d41-01f0-ed11-8848-000d3a37a689}" Name="Machine Procurement Process" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/MachineProcurementProcess-0A387D41-01F0-ED11-8848-000D3A37A689.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>100</processorder>
+  <RunAs>1</RunAs>
+  <UniqueName>contoso_machineprocurementprocess</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>contoso_MachineOrder</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Machine Procurement Process" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{02048624-79ce-4e69-87ae-2bd530c596b2}">
+      <label languagecode="1033" description="Machine Requested" />
+    </steplabels>
+    <steplabels id="{e60f7b21-941d-4767-a01d-c943bd6b7416}">
+      <label languagecode="1033" description="Request Date" />
+    </steplabels>
+    <steplabels id="{5b60f06c-dea0-4e82-ab3d-4974e0d5dda9}">
+      <label languagecode="1033" description="Approval Status" />
+    </steplabels>
+    <steplabels id="{7c4db7ba-e5c5-4417-ac8c-09a3fcf237ca}">
+      <label languagecode="1033" description="Price" />
+    </steplabels>
+    <steplabels id="{039b2351-a111-4c9b-bb00-c6a274fd662c}">
+      <label languagecode="1033" description="Capital Approval" />
+    </steplabels>
+    <steplabels id="{934e93a5-4551-46f6-9d87-45e948088e9a}">
+      <label languagecode="1033" description="Capital Approved" />
+    </steplabels>
+    <steplabels id="{be90714a-4494-46e2-974f-8160497d9945}">
+      <label languagecode="1033" description="Place Order" />
+    </steplabels>
+    <steplabels id="{33caf64d-7c11-4a78-bc08-86e00c7ace35}">
+      <label languagecode="1033" description="Estimated Ship Date" />
+    </steplabels>
+    <steplabels id="{c580e2b9-37e8-490f-a56c-29c27f336a3e}">
+      <label languagecode="1033" description="Supplier Order ID" />
+    </steplabels>
+    <steplabels id="{73ec9da8-359a-4179-a5ab-4129b38352d1}">
+      <label languagecode="1033" description="Receive Machine" />
+    </steplabels>
+    <steplabels id="{f2dcfedc-6f9d-40b1-90a7-b72ae7236364}">
+      <label languagecode="1033" description="Machine Received" />
+    </steplabels>
+    <steplabels id="{22eb6021-a9d3-4a95-8794-fb47a4d78742}">
+      <label languagecode="1033" description="Machine Configured" />
+    </steplabels>
+    <steplabels id="{52dc25b9-1234-4b2d-9920-bcf2ac320151}">
+      <label languagecode="1033" description="Distribute Machine" />
+    </steplabels>
+    <steplabels id="{37a7bd7d-44f8-4871-a458-c346313c8d21}">
+      <label languagecode="1033" description="Machine Delivered" />
+    </steplabels>
+    <steplabels id="{adc7eadb-63c7-4e10-886e-cf8075d4fa5f}">
+      <label languagecode="1033" description="Send Survey" />
+    </steplabels>
+  </labels>
+</Workflow>
